@@ -33,6 +33,11 @@
 // - member_id foreign key
 // - venue_code foreign key
 // - food_code foreign key 
+// The Dinners table creates relationships between all of data:
+// - 1 to many for Dinners and Members;
+// - 1 to 1 for Dinners and Venues; 
+// - 1 to many for Dinners and Food.
+
 
 // 4. How can you develop the set of 3NF tables?
 // Tables for step 3 already fits to 3NF.

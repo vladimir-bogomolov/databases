@@ -52,7 +52,7 @@ const client = new MongoClient(url, { useUnifiedTopology: true });
 
         // 4. Delete the city
         const doc = {
-            "Name": "Khabarovsk"
+            "Name": "Secret City"
           };
         const deleteResult = await col.deleteOne(doc);
 
